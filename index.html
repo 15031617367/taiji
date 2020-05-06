@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <style>
+        @media (max-width: 500px){
+            #content_div{
+                height: 50vh !important;
+                border: 1px solid #000 !important;
+                overflow: auto !important;
+                word-break:break-all !important;
+            }
+            #canvas_div{
+                position: relative !important;
+                top:0px !important; 
+                right: 0px !important;
+                border: 1px solid red !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 样式 -->
+    <style id="pattern"></style>
+    <!-- 内容 -->
+    <div id="content_div"></div>
+    <!-- 画布 -->
+    <div id="canvas_div"></div>
+</body>
+</html>
+<script src="./index.js"></script>
