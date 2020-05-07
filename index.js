@@ -12,7 +12,7 @@ let content_data = `
     border:1px solid red;
     display: inline-block;
     height:100vh;
-    overflow:hidden;
+    overflow: hidden;
 }
 #canvas_div{
     border:1px solid #000;
